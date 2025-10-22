@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GreenLife - Promovendo sustentabilidade e consciência ambiental. Junte-se a nós como voluntário!">
+    <title>GreenLife - Sustentabilidade para um Futuro Melhor</title>
+    <link rel="stylesheet" href="/homecss.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/green-life.png" alt="Logo GreenLife - Folha verde estilizada">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <h1>Transformando o Mundo Através da Sustentabilidade</h1>
+                <p class="hero-subtitle">Juntos podemos criar um futuro mais verde e consciente para as próximas gerações.</p>
+            </div>
+        </section>
+
+        <section id="sobre" class="mission">
+            <div class="container">
+                <h2>Nossa Missão</h2>
+                <div class="mission-content">
+                    <img src="images/green-life.png" alt="Pessoas plantando árvores em área de reflorestamento" class="mission-image">
+                    <div class="mission-text">
+                        <p>A <strong>GreenLife</strong> nasceu com o propósito de promover práticas sustentáveis e conscientizar a sociedade sobre a importância de preservar nosso planeta.</p>
+                        <p>Acreditamos que pequenas ações individuais, quando somadas, geram um impacto transformador. Trabalhamos com educação ambiental, projetos de reflorestamento e economia circular.</p>
+                        <p>Nosso objetivo é inspirar pessoas e empresas a adotarem hábitos mais sustentáveis, reduzindo o impacto ambiental e construindo um futuro melhor para todos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="volunteer">
+            <div class="container">
+                <h2>Seja um Voluntário</h2>
+                <p class="volunteer-intro">Faça parte da nossa equipe e contribua para um mundo mais sustentável. Preencha o formulário abaixo e entraremos em contato!</p>
+                
+                <form action="/cadastro-voluntario" method="post" class="volunteer-form">
+                    <div class="form-group">
+                        <label for="nome">Nome completo:</label>
+                        <input type="text" id="nome" name="nome" required aria-required="true" placeholder="Digite seu nome completo">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required aria-required="true" placeholder="seuemail@exemplo.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="motivacao">Por que você quer ser voluntário?</label>
+                        <textarea id="motivacao" name="motivacao" rows="5" required aria-required="true" placeholder="Conte-nos sua motivação para fazer parte da GreenLife..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Quero ser voluntário</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 GreenLife - Sustentabilidade e Meio Ambiente. Todos os direitos reservados.</p>
+            <p class="footer-secondary">Desenvolvido com ♥ para um planeta melhor</p>
+        </div>
+    </footer>
+</body>
+</html>
